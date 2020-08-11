@@ -76,4 +76,4 @@ client.on('guildMemberAdd', async member => {
         }
 });
 
-client.login("Your Bot's Token Goes Here");
+client.login(process.env.token);
